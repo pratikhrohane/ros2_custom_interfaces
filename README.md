@@ -1,4 +1,6 @@
 # ROS 2 Custom Messages and Services: training_interfaces & training Packages
+🔗 Jump to testing directly → [Testing Steps](https://github.com/pratikhrohane/ros2_custom_interfaces?tab=readme-ov-file#running-and-testing)
+---
 
 ## Overview
 
@@ -230,21 +232,4 @@ while (!client->wait_for_service(1s)) {
   * Make sure `CMakeLists.txt` sets `CMAKE_CXX_STANDARD` to at least 14.
 
 ---
-
-## Summary
-
-| File/Concept                 | Purpose                                     | Key Points                         |
-| ---------------------------- | ------------------------------------------- | ---------------------------------- |
-| `Person.msg`                 | Custom message definition                   | Defines data structure             |
-| `Value.srv`                  | Custom service definition                   | Defines request-response fields    |
-| `rosidl_generate_interfaces` | Auto-generates C++ message/service code     | Enables usage in C++               |
-| `ament_target_dependencies`  | Links ROS 2 client and interfaces libraries | Needed for compilation and linking |
-| `package.xml`                | Declares dependencies and build tools       | Ensures proper package environment |
-
----
-
-Feel free to expand on any section with your own notes or additional commands!
-
----
-
-If you want, I can also help you generate a ready-to-commit `README.md` file with your exact code examples included. Just ask!
+✅ Done!
